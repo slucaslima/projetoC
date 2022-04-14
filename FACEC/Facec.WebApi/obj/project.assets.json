@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "FeatherHttp/0.1.83-alpha.g15473de7d1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/FeatherHttp.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/FeatherHttp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "FeatherHttp/0.1.83-alpha.g15473de7d1": {
+      "sha512": "FHJGHj0PJ8RbfmyRYOi0u1X1bAbTtddI8hyCvtuJY3dARzORMdSal2Wn6JrevHURpTlkrGfePYstZNohmOgfSA==",
+      "type": "package",
+      "path": "featherhttp/0.1.83-alpha.g15473de7d1",
+      "files": [
+        ".nupkg.metadata",
+        "featherhttp.0.1.83-alpha.g15473de7d1.nupkg.sha512",
+        "featherhttp.nuspec",
+        "lib/net5.0/FeatherHttp.dll",
+        "lib/net5.0/FeatherHttp.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "FeatherHttp >= 0.1.83-alpha.g15473de7d1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\facec.lab04\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\facec.lab04\\Documents\\projetoC\\FACEC\\Facec.WebApi\\Facec.WebApi.csproj",
+      "projectName": "Facec.WebApi",
+      "projectPath": "C:\\Users\\facec.lab04\\Documents\\projetoC\\FACEC\\Facec.WebApi\\Facec.WebApi.csproj",
+      "packagesPath": "C:\\Users\\facec.lab04\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\facec.lab04\\Documents\\projetoC\\FACEC\\Facec.WebApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\facec.lab04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\facec.lab04\\Documents\\projetoC": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "FeatherHttp": {
+            "target": "Package",
+            "version": "[0.1.83-alpha.g15473de7d1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Apresentacao", "01 - Apresentacao", "{D085F0BC-9FF1-4FC7-9AEE-65F802690223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facec.WebApi", "Facec.WebApi\Facec.WebApi.csproj", "{BA9F6BF2-73E8-4EC2-AC48-480DCA4D181E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA9F6BF2-73E8-4EC2-AC48-480DCA4D181E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9F6BF2-73E8-4EC2-AC48-480DCA4D181E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9F6BF2-73E8-4EC2-AC48-480DCA4D181E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9F6BF2-73E8-4EC2-AC48-480DCA4D181E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA9F6BF2-73E8-4EC2-AC48-480DCA4D181E} = {D085F0BC-9FF1-4FC7-9AEE-65F802690223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C076A91-E693-4AB1-B5E6-56179A2B6DD0}
+	EndGlobalSection
+EndGlobal

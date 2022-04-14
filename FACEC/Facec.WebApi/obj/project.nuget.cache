@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jSsJ/3VpsC0v67yaeYjWOZaHGrcmVkntCK7gjXwZnK7k/XTjAQh4982MSMTwMV2kfawUV8ImfidFGV8rPweAIg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\facec.lab04\\Documents\\projetoC\\FACEC\\Facec.WebApi\\Facec.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\facec.lab04\\.nuget\\packages\\featherhttp\\0.1.83-alpha.g15473de7d1\\featherhttp.0.1.83-alpha.g15473de7d1.nupkg.sha512"
+  ],
+  "logs": []
+}
