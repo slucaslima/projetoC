@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "k+MeBnTIW/NglBB6AAr8x3n2xa9nDSeJKpZH1k+5u5jQQi9tXq6CSfGsf0ADXOpascKIv0WqswDo8fL/G8cN9A==",
+  "dgSpecHash": "P00Yum0RYFBghxiElkhQsTTOgl00yLC12V5282dH/bzR9LcRV5cBfFtVYiIIXjxw+BbTrZd32MFCRhtktBda0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.IoC\\Facec.IoC.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.IoC\\Facec.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\facec.lab04\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
+    "C:\\Users\\facec.lab04\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\facec.lab04\\.nuget\\packages\\simpleinjector\\5.3.3\\simpleinjector.5.3.3.nupkg.sha512",
+    "C:\\Users\\facec.lab04\\.nuget\\packages\\system.componentmodel\\4.0.1\\system.componentmodel.4.0.1.nupkg.sha512",
+    "C:\\Users\\facec.lab04\\.nuget\\packages\\system.runtime\\4.1.0\\system.runtime.4.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

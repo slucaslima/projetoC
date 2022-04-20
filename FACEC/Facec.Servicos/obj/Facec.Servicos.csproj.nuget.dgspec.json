@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj": {}
+    "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj": {
+    "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj",
         "projectName": "Facec.Dominio",
-        "projectPath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj",
-        "packagesPath": "C:\\Users\\facec.lab01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj",
+        "packagesPath": "C:\\Users\\facec.lab04\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\facec.lab01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\facec.lab04\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -58,17 +72,17 @@
         }
       }
     },
-    "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj": {
+    "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj",
+        "projectUniqueName": "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj",
         "projectName": "Facec.Servicos",
-        "projectPath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj",
-        "packagesPath": "C:\\Users\\facec.lab01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\obj\\",
+        "projectPath": "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj",
+        "packagesPath": "C:\\Users\\facec.lab04\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\facec.lab01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\facec.lab04\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj": {
-                "projectPath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj"
+              "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj": {
+                "projectPath": "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj"
               }
             }
           }
@@ -107,6 +121,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
