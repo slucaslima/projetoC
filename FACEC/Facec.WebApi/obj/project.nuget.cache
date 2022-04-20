@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "jSsJ/3VpsC0v67yaeYjWOZaHGrcmVkntCK7gjXwZnK7k/XTjAQh4982MSMTwMV2kfawUV8ImfidFGV8rPweAIg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\facec.lab04\\Documents\\projetoC\\FACEC\\Facec.WebApi\\Facec.WebApi.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\facec.lab04\\.nuget\\packages\\featherhttp\\0.1.83-alpha.g15473de7d1\\featherhttp.0.1.83-alpha.g15473de7d1.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "FB5PLXTvvRbwlON1pqeCS2ZjjjRXakCRnm9xLUk0ybLbI40i+cTssVpCREIfF//zr1XoyN2Aqn238S4b2VxIuQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.WebApi\\Facec.WebApi.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote FeatherHttp. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "FeatherHttp",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

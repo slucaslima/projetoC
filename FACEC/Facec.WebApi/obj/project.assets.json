@@ -1,54 +1,28 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "FeatherHttp/0.1.83-alpha.g15473de7d1": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/FeatherHttp.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/FeatherHttp.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "FeatherHttp/0.1.83-alpha.g15473de7d1": {
-      "sha512": "FHJGHj0PJ8RbfmyRYOi0u1X1bAbTtddI8hyCvtuJY3dARzORMdSal2Wn6JrevHURpTlkrGfePYstZNohmOgfSA==",
-      "type": "package",
-      "path": "featherhttp/0.1.83-alpha.g15473de7d1",
-      "files": [
-        ".nupkg.metadata",
-        "featherhttp.0.1.83-alpha.g15473de7d1.nupkg.sha512",
-        "featherhttp.nuspec",
-        "lib/net5.0/FeatherHttp.dll",
-        "lib/net5.0/FeatherHttp.xml"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     "net5.0": [
       "FeatherHttp >= 0.1.83-alpha.g15473de7d1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\facec.lab04\\.nuget\\packages\\": {}
+    "C:\\Users\\facec.lab01\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\facec.lab04\\Documents\\projetoC\\FACEC\\Facec.WebApi\\Facec.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.WebApi\\Facec.WebApi.csproj",
       "projectName": "Facec.WebApi",
-      "projectPath": "C:\\Users\\facec.lab04\\Documents\\projetoC\\FACEC\\Facec.WebApi\\Facec.WebApi.csproj",
-      "packagesPath": "C:\\Users\\facec.lab04\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\facec.lab04\\Documents\\projetoC\\FACEC\\Facec.WebApi\\obj\\",
+      "projectPath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.WebApi\\Facec.WebApi.csproj",
+      "packagesPath": "C:\\Users\\facec.lab01\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\facec.lab04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\facec.lab01\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -56,7 +30,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\facec.lab04\\Documents\\projetoC": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -101,5 +74,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote FeatherHttp. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "FeatherHttp",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
