@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vod8nchUE3rcG+yZWTr5oP3ql/Eo07S9XeDxKhO0GOe9WrpLs6xv21oBfuq63cO1r3E3W9iUzxtbxDWxwp/1sg==",
+  "dgSpecHash": "on9iHfQxnrXk+TB9z3enW4tCkETqt6BQm9xJQ0F8kySoTLxmDLJtQWNXY8c3Xx+nsRZkApIfhK/JV2FjjlnVVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\facec.lab04\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\facec.lab04\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\facec.lab04\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\facec.lab04\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

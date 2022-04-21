@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Facec.Dominio.nsEntidades
 {
-    public class Cliente
+    public class Cliente : AbstractEntidade
     {
         [JsonPropertyName("nome")]
         public string Nome { get; set; }
@@ -15,5 +15,10 @@ namespace Facec.Dominio.nsEntidades
         [JsonPropertyName("documento")]
         public string Documento { get; set; }
 
+        public Cliente(string nome, string documento) : base()
+        {
+            Nome = nome;
+            Documento = documento;
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Facec.Dominio.nsEntidades;
 using Facec.Dominio.nsInterfaces;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 
 namespace Facec.Web.Api.Controllers
@@ -17,8 +18,20 @@ namespace Facec.Web.Api.Controllers
         }
 
         [HttpDelete]
-        public void Excluir(Cliente cliente)
-            => _servico.Excluir(cliente);
+        [Route("{id}")]
+        public IActionResult Excluir(Guid id)
+        {
+            try
+            {
+                _servico.Excluir(id);
+                return Ok();
+            }
+            catch (ApplicationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpPost]
         public void Gravar(Cliente cliente)
             => _servico.Gravar(cliente);
