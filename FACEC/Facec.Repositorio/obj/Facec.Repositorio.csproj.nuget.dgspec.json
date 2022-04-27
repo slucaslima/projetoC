@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj": {}
+    "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Repositorio\\Facec.Repositorio.csproj": {}
   },
   "projects": {
     "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Dominio\\Facec.Dominio.csproj": {
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj": {
+    "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Repositorio\\Facec.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj",
-        "projectName": "Facec.Servicos",
-        "projectPath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\Facec.Servicos.csproj",
+        "projectUniqueName": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Repositorio\\Facec.Repositorio.csproj",
+        "projectName": "Facec.Repositorio",
+        "projectPath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Repositorio\\Facec.Repositorio.csproj",
         "packagesPath": "C:\\Users\\facec.lab01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Servicos\\obj\\",
+        "outputPath": "C:\\Users\\facec.lab01\\Downloads\\projetoC\\FACEC\\Facec.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\facec.lab01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,6 +97,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

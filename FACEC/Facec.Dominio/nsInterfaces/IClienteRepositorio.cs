@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Facec.Dominio.nsInterfaces
 {
-    public interface IClienteServico
+    public interface IClienteRepositorio
     {
-        void Excluir(Guid id);
         void Gravar(Cliente cliente);
+        void Excluir(Cliente cliente);
         IEnumerable<Cliente> Obter();
     }
 }
